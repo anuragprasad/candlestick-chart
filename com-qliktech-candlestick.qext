@@ -1,0 +1,13 @@
+{
+	"name" : "Candlestick Chart",
+	"description" : "Candlestick Chart Extension Example",
+	"icon" : "bar-chart-vertical",
+	"type" : "visualization",
+	"version": "1.0.0",
+	"author": "Anurag",
+	"homepage" : "http://www.polestarllp.com",
+	"keywords" : "qlik-sense, chart, visualization",
+	"license" : "Polestar",
+	"repository" : "",
+    "dependencies" : { "qlik-sense" : ">=3.0.x" }
+}

@@ -1,0 +1,75 @@
+
+.qv-object-com-qliktech-candlestick #chartContainer {
+	overflow:scroll;
+}
+
+.qv-object-com-qliktech-candlestick #yaxisCanvas{
+	position: absolute;
+	display: block;
+	z-index: 1000;
+	top: 0;
+	left:0;
+}
+
+.qv-object-com-qliktech-candlestick #legend {
+	position: absolute;
+	z-index: 1000;
+	top: 0;
+	right:0;
+	height: 100%;
+}
+
+.qv-object-com-qliktech-candlestick #xaxisLabel{
+	position: absolute;
+	z-index: 1000;
+	bottom: 10px;
+	left: 50%;
+}
+
+/* Tooltip container */
+.qv-object-com-qliktech-candlestick .tooltip {
+	overflow:visible;
+	position: absolute;
+	display: block;
+}
+
+.qv-object-com-qliktech-candlestick .tooltip .tooltiptext {
+	visibility: hidden;
+	overflow:visible;
+	width: 200px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 0px ;
+	
+	
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1020;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -100px;
+	
+	
+}
+
+.qv-object-com-qliktech-candlestick .tooltip .tooltiptext::after {
+	content: " ";
+	top: 100%; /* At the bottom of the tooltip */
+	position: absolute;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black transparent transparent transparent;
+}
+
+.qv-object-com-qliktech-candlestick .tooltip .tooltiptext table{
+	text-align: left;
+	margin-left: 0.8em;
+}
+
+.qv-object-com-qliktech-candlestick #legend td{
+	padding: 5px 0px 5px 5px;
+}
